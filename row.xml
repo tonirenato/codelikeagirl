@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="oracle_id">
+    <column comment="" default="" key="true" label="REWARDED_MSISDN"
+        length="20" nullable="false"
+        originalDbColumnName="REWARDED_MSISDN" originalLength="0"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR2"/>
+    <column comment="" default="" key="false" label="REWARD_DESCRIPTION"
+        length="100" nullable="false"
+        originalDbColumnName="REWARD_DESCRIPTION" originalLength="0"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR2"/>
+    <column comment="" default="" key="false" label="REWARD_DATE"
+        length="7" nullable="false" originalDbColumnName="REWARD_DATE"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_Date" type="DATE"/>
+    <column comment="" default="" key="false" label="REWARD_CODE"
+        length="16" nullable="false" originalDbColumnName="REWARD_CODE"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR2"/>
+    <column comment="" default="" key="false" label="STATUS" length="1"
+        nullable="false" originalDbColumnName="STATUS"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR2"/>
+</schema>
